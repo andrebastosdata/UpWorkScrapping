@@ -1,0 +1,8 @@
+1- In the virtual environment, you already have all the necessary libraries with the right versions, just activate the environment;
+2- To be able to run the notebook, it is necessary to open the Chrome browser on debug port 9250 (if it is in use, choose another one and set it to the code). How to do this:
+    Go to cmd and type:
+        "full_path_to_executable\chrome.exe" --remote-debugging-port=9250 --user-data-dir="C:/ChromeDebug"
+    
+3- After opening the specific Chrome window, you need to log in to Upwork (scraping will start on the Upwork home page, once logged in)
+4- rotate cell by cell
+5- If you keep searching for the same keyword, it will block and then you have to restart the page and go through the security configuration.
